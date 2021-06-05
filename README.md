@@ -1,9 +1,9 @@
-# Quarrel (v1.4.3)
+# Ovel (v0.1)
 A Themed Based Of The Quarrel Client In The Windows Store
 
-![preview](https://i.imgur.com/Qhh2RnU.jpg)
+![preview](https://i.imgur.com/szBs95L.png)
 
-## How To Install Quarrel?
+## How To Install Ovel?
 
 Its Simple!
 
@@ -12,12 +12,12 @@ For **Powercord** Users:
 1. Open CMD & Type:
 
 ```
-cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Quarrel
+cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Ovel
 ```
 
 For **Betterdiscord** Users:
 
-1. CLick > [Download](https://betterdiscord.app/Download?id=246)
+1. CLick > [Download]() - not on yet
 
 2. Download Raw
 
@@ -28,4 +28,4 @@ Direct Message Me On @Discord Or Join By **[github.com/leeprky](https://discord.
 
 
 Compared To Original
-![preview](https://i.imgur.com/A8h0SjQ.png)
+![preview](https://i.imgur.com/8RlZ3ED.png)
