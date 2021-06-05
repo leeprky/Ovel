@@ -11,7 +11,6 @@
  * @website https://leeprky.github.io/
 */
 
-
 /* ---------------------------------------------
 
       ░█████╗░  ██╗░░░██╗  ███████╗  ██╗░░░░░
@@ -25,9 +24,13 @@
    --------------------------------------------- */
 
 @import "https://leeprky.github.io/themes/Ovel/ovel-source.css";
-
 @import "https://leeprky.github.io/themes/BaseStuff/alt-color.css";
 @import "https://leeprky.github.io/themes/FullyThemedDiscord/FullyThemedDiscord.css";
+
+@import url(https://leeprky.github.io/snippits/coolsniipitsforthemes.css);
+@import "https://raw.githack.com/mr-miner1/Better-Badges/main/theme.css";
+@import url(https://leeprky.github.io/themes/lode/default/support/gradients/luckfiregradientbuttons.css);
+@import url(https://leeprky.github.io/themes/GreenBeGo/greenple-replacer.css);
 
    /* ------------------------------
 
@@ -36,27 +39,58 @@
             
    ------------------------------ */
 
-   .theme-dark, .theme-light {
-    --text-warning: #faa61a;
-    --text-danger: #ed4245;
-    --info-positive-background: rgba(59,165,92,0.1);
-    --info-positive-foreground: #3ba55c;
-    --info-warning-background: rgba(250,166,26,0.1);
-    --info-warning-foreground: #faa61a;
-    --info-danger-background: rgba(237,66,69,0.1);
-    --info-danger-foreground: #ed4245;
-    --status-positive-background: #3ba55c;
-    --status-positive-text: #fff;
-    --status-warning-background: #faa61a;
-    --status-danger-background: #ed4245;
-    --status-danger-text: #fff;
-    --focus-primary: #00b0f4;
+/* Status */
+:root {
+
+      /* Gradients */
+      --default-gradient: 315deg, #4657a3 0%, #464186 74%;
+      --special-gradient: 315deg, #333d91 0%, #c987b8 74%;
+      --red-gradient: 315deg, #AA3738 0%, #F04747 74%;
+      --yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74%;
+      --green-gradient: 315deg, #46a365 0%, #46a39b  74%;
+      --grey-gradient: 315deg, #40414627 0%, #484c4e59 74%;
+      --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 74%;
+      /* Transitions */
+      --font-normal: 500;
+      --font-hover: bold;
+      --font-size-hover: 15px;
+      --hover-transition: 0.1s linear;
+      --transform-normal: scale(1);
+      --hover-transform: scale(1.15);
+      --setting-hover-transform: scale(1.025);
+      --button-hover-transform: scale(1.03);
+
+      /* Greenple */
+      --green-color: var(--alt-color2);
+      --green-bar-on: var(--green-color);
+      --green-bar-bg: #151925;
+      --green-slider-on: var(--green-color);
+      --green-slider-off: #5c646480;
+      --green-slider-dot: #fff;
+
+}
+
+:root {
+  --font-primary: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --font-display: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --font-code: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+  --font-korean: Whitney,"Apple SD Gothic Neo","NanumBarunGothic","맑은 고딕","Malgun Gothic",Gulim,굴림,Dotum,돋움,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --font-japanese: Whitney,Hiragino Sans,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,Osaka,"MS PGothic","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --font-chinese-simplified: Whitney,"Microsoft YaHei New",微软雅黑,"Microsoft Yahei","Microsoft JhengHei",宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --font-chinese-traditional: Whitney,"Microsoft JhengHei",微軟正黑體,"Microsoft JhengHei UI","Microsoft YaHei",微軟雅黑,宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
     /* Quarrel Dark */
     .theme-dark {
 
-      --border-radius: 12px;
+    --border-radius: 12px;
+
+    --spotify-modal: block;
+    --spotify-height: 100px;
+    --spotify-left: 15px;
+
+    --chatbox-colour: #2E3450;
+
     
     --bd-color: #4C46A3; /* Betterdiscord Global Colour - #1B5EB6 */
     --bd-color-hover: #4C46A3; /* Betterdiscord Global Colour Hover - #164a8f */
@@ -64,13 +98,13 @@
     --alt-color2: #4C46A3; /* Discords Blurple Global | HEX - #1b5eb6 */
     /* Change Both Alts To Same Alternate Version As They Do Different Things Just Different Ways */
     
-    --scrollbars: none; /* Remove None For Scrollbars - none */
+    --scrollbars: block; /* Remove None For Scrollbars - none */
     --public-servers: none; /* Remove None For Public Server Button - none */
     --bar-background-primary: #1b1c2200 !important; /* Bottom Bar Colour - #1b1c22 */
     --home-icon: url(https://i.imgur.com/Bda0DuK.png); /* Friends Home Icon - https://i.imgur.com/Bda0DuK.png */
       
     --playing-color: var(--alt-color2); /* Dont Work In New Discord Modal Update */
-    --spotify-color: rgba(35, 197, 35, 0.747); /* Dont Work In New Discord Modal Update */
+    --spotify-color: #38CB75; /* Dont Work In New Discord Modal Update */
     --streaming-color: rgb(127, 50, 179); /* Dont Work In New Discord Modal Update */
     
      /* Header Colors */
@@ -92,11 +126,13 @@
     
      /* Background Colours */
   --background-primary: #1E233A !important; /* Main Background Colour, Chat Etc - #191a1fc2 */
-  --background-primary-alt: #1E233A !important; /* Main Alternative Background Colour - #191a1fd0 */
+  --background-primary-alt: #2d3557 !important; /* Main Alternative Background Colour - #191a1fd0 */
   --background-secondary: #1E233A !important; /* Secondary Background Colour, Channelist, TopBar  Etc - #1b1c224f */
-  --background-secondary-alt: #1E233A !important; /* Secondary Alternative Background Colour - #1b1c228a */
+  --background-secondary-alt: #232942 !important; /* Secondary Alternative Background Colour - #1b1c228a */
   --background-tertiary: #14182b !important; /* Tertiary Background Colour | #App Mount Colour Etc - #191b2277 */
   --background-accent: var(--alt-color2) !important; /* Accent Background Colour, Pills Etc - var(--alt-color2) */
+  --background-accent2: #1ABC9C !important; /* Accent Background Colour, Pills Etc - var(--alt-color2) */
+  --background-accent3: #F52C79 !important; /* Accent Background Colour, Pills Etc - var(--alt-color2) */
   --background-floating: #111422 !important; /* Floating Modals Background Colour, Clickable Stuff Etc -#18191c */
     
      /* Mentioned  Colours */
@@ -121,8 +157,8 @@
     
     --scrollbar-thin-thumb: #eaedf100; /* Scrollbar Thin Blob - eaedf100 */
     --scrollbar-thin-track: transparent; /* Scrollbar Thin Blob Track - transparent */
-    --scrollbar-auto-thumb: #e5e9ee; /* Scrollbar Large Blob - #e5e9ee */
-    --scrollbar-auto-track: #ebeef100; /* Scrollbar Large Blob Track - #ebeef100 */
+    --scrollbar-auto-thumb: var(--alt-color2); /* Scrollbar Large Blob - #e5e9ee */
+    --scrollbar-auto-track: #26272902; /* Scrollbar Large Blob Track - #ebeef100 */
     --scrollbar-auto-scrollbar-color-thumb: #f0f3f8; /* Scrollbar Large Blob - #f0f3f8 */
     --scrollbar-auto-scrollbar-color-track: #2f313600; /* Scrollbar Large Blob Track - #2f313600 */
         
@@ -130,10 +166,10 @@
     --radio-group-dot-foreground: var(--alt-color); /* Ignore */
     }
 
+
 /*  -------------------------------------
+
       █▀█ █▀█ ▀█▀ █ █▀█ █▄░█ ▄▀█ █░░ █▀
       █▄█ █▀▀ ░█░ █ █▄█ █░▀█ █▀█ █▄▄ ▄█
             
     ------------------------------------- */
-    /*
-not finished
