@@ -1,7 +1,7 @@
 # Ovel (v0.3)
 A Themed Based Of The Quarrel Client In The Windows Store
 
-![preview](https://i.imgur.com/bEGBUzB.png)
+![preview](https://i.imgur.com/PLyRW24.png)
 
 ## How To Install Ovel?
 
