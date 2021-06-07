@@ -88,7 +88,7 @@
  /* Ovel Dark */
 .theme-dark {
 
---chatbox-colour: #2E3450;
+ --chatbox-colour: #222741;
  
 --popout-width: 480px; /* Popout Modal Width, None For Dynamic Width - 480 */
 --modal-bg: #121524; /* Popout Modal Colour - rgb(19, 20, 24) */
