@@ -1,4 +1,4 @@
-# Ovel (v0.3)
+# Ovel (v0.4)
 A Themed Based Of The Quarrel Client In The Windows Store
 
 ![preview](https://i.imgur.com/PLyRW24.png)
