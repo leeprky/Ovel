@@ -81,6 +81,8 @@
  
   --scrollbars: ; 
   --public-servers: none; /* Remove None For Public Server Button - none */    
+  
+  --app-rounding: 16px;
 }
 
  /* Ovel Dark */
