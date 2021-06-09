@@ -1,7 +1,7 @@
 /**
  * @name Ovel
  * @author Leeprky#2063
- * @version 0.4.1
+ * @version 0.5
  * @description Ovel Theme | Concept Merge.
  * @source https://github.com/leeprky/Ovel
  * @updateUrl https://github.com/leeprky/Ovel/blob/lode/source/support/betterdiscord/ovel.theme.css
@@ -19,32 +19,22 @@
       ██║░░██║  ░╚████╔╝░  ██╔══╝░░  ██║░░░░░
       ╚█████╔╝  ░░╚██╔╝░░  ███████╗  ███████╗
       ░╚════╝░  ░░░╚═╝░░░  ╚══════╝  ╚══════╝
-                   𝖫𝖤𝖤𝖯𝖱𝖪𝖸#𝟚𝟘𝟞𝟛
-            
+
+       █▀▀ █▀█ █▄░█ █▀▀ █ █▀▀  █▀▀ █ █░░ █▀▀
+       █▄▄ █▄█ █░▀█ █▀░ █ █▄█  █▀░ █ █▄▄ ██▄
+
+                By 𝖫𝖤𝖤𝖯𝖱𝖪𝖸#𝟚𝟘𝟞𝟛
+
    --------------------------------------------- */
 
-@import "https://leeprky.github.io/themes/Ovel/ovel-source.css";
-@import "https://leeprky.github.io/themes/BaseStuff/alt-color.css";
-@import "https://leeprky.github.io/themes/FullyThemedDiscord/FullyThemedDiscord.css";
+@import "https://leeprky.github.io/themes/Ovel/imports.css";
 
-@import url(https://leeprky.github.io/snippits/coolsniipitsforthemes.css);
-@import "https://raw.githack.com/mr-miner1/Better-Badges/main/theme.css";
-@import url(https://leeprky.github.io/themes/lode/default/support/gradients/luckfiregradientbuttons.css);
-@import url(https://leeprky.github.io/themes/GreenBeGo/greenple-replacer.css);
+/* ---------------------------------
 
-   /* ---------------------------------
+        █▀▀ █▀█ █▄░█ █▀▀ █ █▀▀
+        █▄▄ █▄█ █░▀█ █▀░ █ █▄█ v0.5
 
-       █▀▀ █▀█ █▄░█ █▀▀ █ █▀▀
-       █▄▄ █▄█ █░▀█ █▀░ █ █▄█ v0.4.1
-            
-      --------------------------------- */
-
-   body{
-       background-color: transparent !important;
-   }
-   #app-mount{
-      border-radius: 16px !important; 
-   }
+    --------------------------------- */
    
 /* Status */
 :root {
@@ -67,7 +57,7 @@
    --setting-hover-transform: scale(1.025);
    --button-hover-transform: scale(1.03);
 
-   /* Greenple */
+   /* Greenple Colour*/
    --green-color: var(--alt-color2);
    --green-bar-on: var(--green-color);
    --green-bar-bg: #151925;
@@ -78,90 +68,92 @@
 
 .theme-dark, .theme-light {
   --border-radius: 8px;
+      
   --spotify-modal: block;
   --spotify-height: 50px;
   --spotify-left: 1000px;
+  
   --bg-avatar: url(https://i.imgur.com/g37HbBe.png);
+      
+ --popout-width: 480px; 
+ --modal-bg: #121524; 
+ 
+  --scrollbars: ; 
+  --public-servers: none; /* Remove None For Public Server Button - none */    
 }
 
  /* Ovel Dark */
  .theme-dark {
 
  --chatbox-colour: #222741;
- 
- --popout-width: 480px; /* Popout Modal Width, None For Dynamic Width - 480 */
- --modal-bg: #121524; /* Popout Modal Colour - rgb(19, 20, 24) */
 
- --bd-color: #4C46A3; /* Betterdiscord Global Colour - #1B5EB6 */
- --bd-color-hover: #4C46A3; /* Betterdiscord Global Colour Hover - #164a8f */
+ --bd-color: #4C46A3; 
+ --bd-color-hover: #4C46A3; 
  --bdfdb-blurple: #4C46A3;
- --alt-color: 76, 70, 163; /* Discords Blurple Global | RGB - 27, 94, 182 */
- --alt-color2: #4C46A3; /* Discords Blurple Global | HEX - #1b5eb6 */
- /* Change Both Alts To Same Alternate Version As They Do Different Things Just Different Ways */
+ --alt-color: 76, 70, 163; 
+ --alt-color2: #4C46A3; 
  
- --scrollbars: block; /* Remove None For Scrollbars - none */
- --public-servers: none; /* Remove None For Public Server Button - none */
- --playing-color: var(--alt-color2); /* Dont Work In New Discord Modal Update */
- --spotify-color: #38CB75; /* Dont Work In New Discord Modal Update */
- --streaming-color: rgb(127, 50, 179); /* Dont Work In New Discord Modal Update */
+ --playing-color: var(--alt-color2); 
+ --spotify-color: #38CB75; 
+ --streaming-color: rgb(127, 50, 179); 
  
   /* Header Colors */
-  --header-primary: #fff; /* Main Header Colour - #fff */
-  --header-secondary: #b9bbbe; /* Secondary Header Colour - #b9bbbe */
-  --channels-headings: var(--alt-color2); /* Headers For Channels/Role Names Colour - var(--alt-color2) */
+  --header-primary: #fff; 
+  --header-secondary: #b9bbbe; 
+  --channels-headings: var(--alt-color2); 
 
   /* Text Colours */
-  --text-normal: #ccc8fd; /* Chat Text - #dcddde */
-  --text-muted: #535170; /* Channel Icon Colour - #72767d */
-  --text-link: var(--alt-color2); /* Text Link Globally - var(--alt-color2); */
-  --channels-default: #b8b6d6; /* Default Channel Names Colour - #8e9297 */
-  --interactive-normal: #b9bbbe; /* Interactive Buttons Normal Colour - #b9bbbe */
-  --interactive-hover: #ccc8fd; /* Interactive Buttons Hover Colour - #dcddde */
-  --interactive-hover-icons: var(--background-accent2); /* Interactive Buttons Hover Colour - var(--alt-color2);*/
-  --interactive-active: #fefeff; /* Interactive Buttons Active Colour - #fff */
-   --interactive-active-icons: var(--background-accent2); /* Interactive Buttons Icon Colour - var(--alt-color2); */
-  --interactive-muted: #535170; /* Interactive Buttons Muted Colour - #4f545c */
+  --text-normal: #ccc8fd; 
+  --text-muted: #535170; 
+  --text-link: var(--alt-color2); /
+  --channels-default: #b8b6d6; /
+  --interactive-normal: #b9bbbe; 
+  --interactive-hover: #ccc8fd; 
+  --interactive-hover-icons: var(--background-accent2); 
+  --interactive-active: #fefeff; 
+   --interactive-active-icons: var(--background-accent2); 
+  --interactive-muted: #535170; 
  
   /* Background Colours */
---background-primary: #1E233A !important; /* Main Background Colour, Chat Etc - #191a1fc2 */
---background-primary-alt: #2d3557 !important; /* Main Alternative Background Colour - #191a1fd0 */
---background-secondary: #1E233A !important; /* Secondary Background Colour, Channelist, TopBar  Etc - #1b1c224f */
---background-secondary-alt: #232942 !important; /* Secondary Alternative Background Colour - #1b1c228a */
---background-tertiary: #14182b !important; /* Tertiary Background Colour | #App Mount Colour Etc - #191b2277 */
---background-accent: var(--alt-color2) !important; /* Accent Background Colour, Pills Etc - var(--alt-color2) */
---background-accent2: #1ABC9C !important; /* Accent Background Colour, Pills Etc - var(--alt-color2) */
---background-accent3: #F52C79 !important; /* Accent Background Colour, Pills Etc - var(--alt-color2) */
---background-floating: #111422 !important; /* Floating Modals Background Colour, Clickable Stuff Etc -#18191c */
+--background-primary: #1E233A !important; 
+--background-primary-alt: #2d3557 !important; /
+--background-secondary: #1E233A !important; 
+--background-secondary-alt: #232942 !important; 
+--background-tertiary: #14182b !important; 
+--background-accent: var(--alt-color2) !important; 
+--background-accent2: #1ABC9C !important; 
+--background-accent3: #F52C79 !important; 
+--background-floating: #111422 !important; 
  
   /* Mentioned  Colours */
-  --background-mentioned: #3a339965 !important; /* Chat Mentioned BG - rgba(26, 60, 250, 0.123) */
-  --background-mentioned-hover: #4c46a359; /* Chat Mentioned Hover BG - rgba(41, 26, 250, 0.08) */
-  --background-mentioned-bar: var(--background-accent); /* Chat Mentioned Bar BG - var(--background-accent) */
+  --background-mentioned: #3a339965 !important; 
+  --background-mentioned-hover: #4c46a359; 
+  --background-mentioned-bar: var(--background-accent); 
  
-  --background-help-warning: rgba(250,166,26,0.1); /* IDK | Rebrand Stuff - rgba(250,166,26,0.1) */
-  --background-help-info: rgba(0,176,244,0.1); /* IDK | Rebrand Stuff - rgba(0,176,244,0.1) */
+  --background-help-warning: rgba(250,166,26,0.1); 
+  --background-help-info: rgba(0,176,244,0.1); 
  
   /* Scrollbar Colours */
-  --background-modifier-hover: #4c46a3af; /* Hovering Over Buttons Hover Colour - rgba(79,84,92,0.16) */
-  --background-modifier-active: #4c46a3fa; /* Hovering Over Buttons Active Colour - rgba(79,84,92,0.16) */
-  --background-modifier-selected: #4c46a39f; /* Hovering Over Buttons Selected Colour - rgba(79,84,92,0.16) */
-  --background-modifier-accent: #4c46a309; /* Hovering Over Buttons Accent Colour - rgba(79,84,92,0.16) */
+  --background-modifier-hover: #4c46a3af; 
+  --background-modifier-active: #4c46a3fa; 
+  --background-modifier-selected: #4c46a39f; 
+  --background-modifier-accent: #4c46a309; 
  
  /* Box Shadow On Floating Elements Colours */
- --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15); /* Box Shadow On Floating Elements Stroke - 0 0 0 1px rgba(4,4,5,0.15) */
- --elevation-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05); /* Box Shadow On Floating Elements Low - 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05) */
- --elevation-medium: 0 4px 4px rgba(0,0,0,0.16); /* Box Shadow On Floating Elements Medium - 0 4px 4px rgba(0,0,0,0.16) */
- --elevation-high: 0 8px 16px rgba(0,0,0,0.24); /* Box Shadow On Floating Elements High - 0 8px 16px rgba(0,0,0,0.24) */
+ --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15); 
+ --elevation-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+ --elevation-medium: 0 4px 4px rgba(0,0,0,0.16); 
+ --elevation-high: 0 8px 16px rgba(0,0,0,0.24); 
  
- --scrollbar-thin-thumb: #eaedf100; /* Scrollbar Thin Blob - eaedf100 */
- --scrollbar-thin-track: transparent; /* Scrollbar Thin Blob Track - transparent */
- --scrollbar-auto-thumb: var(--alt-color2); /* Scrollbar Large Blob - #e5e9ee */
- --scrollbar-auto-track: #26272902; /* Scrollbar Large Blob Track - #ebeef100 */
- --scrollbar-auto-scrollbar-color-thumb: #f0f3f8; /* Scrollbar Large Blob - #f0f3f8 */
- --scrollbar-auto-scrollbar-color-track: #2f313600; /* Scrollbar Large Blob Track - #2f313600 */
+ --scrollbar-thin-thumb: #eaedf100; 
+ --scrollbar-thin-track: transparent;
+ --scrollbar-auto-thumb: var(--alt-color2); 
+ --scrollbar-auto-track: #26272902; 
+ --scrollbar-auto-scrollbar-color-thumb: #f0f3f8; 
+ --scrollbar-auto-scrollbar-color-track: #2f313600; 
      
  /* Other */
- --radio-group-dot-foreground: var(--alt-color); /* Ignore */
+ --radio-group-dot-foreground: var(--alt-color); 
  }
 
 /* Ovel Light */
