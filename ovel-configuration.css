@@ -66,6 +66,8 @@
  --modal-bg: #121524; 
  
   --scrollbars: ; 
+      
+  --app-rounding: 16px;
 }
 
  /* Ovel Dark */
