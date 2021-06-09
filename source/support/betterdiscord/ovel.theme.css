@@ -36,7 +36,10 @@
         █▄▄ █▄█ █░▀█ █▀░ █ █▄█ v0.5
 
     --------------------------------- */
-   
+
+/* Turn Background Transparent */
+/*  @import "leeprky.github.io/themes/Ovel/imports/09-support/betterdiscord/transparency.css";
+
 /* Status */
 :root {
 
@@ -118,15 +121,15 @@
   --interactive-muted: #535170; 
  
   /* Background Colours */
---background-primary: #1E233A !important; 
---background-primary-alt: #2d3557 !important; 
---background-secondary: #1E233A !important; 
---background-secondary-alt: #232942 !important; 
---background-tertiary: #14182b !important; 
---background-accent: var(--alt-color2) !important; 
---background-accent2: #1ABC9C !important; 
---background-accent3: #F52C79 !important; 
---background-floating: #111422 !important; 
+  --background-primary: #1E233A; 
+  --background-primary-alt: #2d3557; 
+  --background-secondary: #1E233A; 
+  --background-secondary-alt: #232942;
+  --background-tertiary: #14182b; 
+  --background-accent: var(--alt-color2); 
+  --background-accent2: #1ABC9C; 
+  --background-accent3: #F52C79; 
+  --background-floating: #111422; 
  
   /* Mentioned  Colours */
   --background-mentioned: #3a339965 !important; 
