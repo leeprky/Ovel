@@ -1,4 +1,4 @@
-# Ovel (v0.4)
+# Ovel (v0.5)
 A Themed Based Of The Quarrel Client In The Windows Store
 
 ![preview](https://i.imgur.com/PLyRW24.png)
@@ -17,7 +17,7 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Ovel
 
 For **Betterdiscord** Users:
 
-1. CLick > [Download]() - not on yet
+1. CLick > [Download](https://raw.githubusercontent.com/leeprky/Ovel/lode/source/support/betterdiscord/ovel.theme.css)
 
 2. Download Raw
 
