@@ -24,36 +24,33 @@
             
       --------------------------------- */
 
-/*  -------------------
-      Glasscord Start
-    ------------------- *
-
-/* Glasscord Section START (MUST HAVE IT INSTALLED, SEE FILES) */
-/* - Delete For Rounding Only
-:root{
-  --glasscord-win-blur: blurbehind;
-  --glasscord-macos-vibrancy: fullscreen-ui;
-  --glasscord-linux-blur: true;
-  --glasscord-titlebar: default;  
-Delete For Rounding Only - */
-
-/* - Delete For Tranparency
-  --chatbox-colour: #22274175 !important; 
-  --background-primary: #1e233a00 !important; 
-  --background-primary-alt: #2d355783 !important; 
-  --background-secondary: #1e233a00 !important; 
-  --background-secondary-alt: #232942fa !important; 
-  --background-tertiary: #14182b85 !important; 
-  --background-accent: var(--alt-color2) !important; 
-  --background-accent2: #1abc9cc2 !important; 
-  --background-accent3: #f52c798f !important; 
-  --background-floating: #111422fb !important; 
-}
-Delete For Tranparency - */ 
-
-/*  -------------------
-       Glasscord End
-    ------------------- *
+   /*  -------------------
+         Glasscord Start
+       ------------------- *
+   /* Glasscord Section START (MUST HAVE IT INSTALLED, SEE FILES) */
+   :root{
+     --glasscord-win-blur: blurbehind;
+   }
+   /* - Add Transparency
+   :root {
+     --glasscord-macos-vibrancy: fullscreen-ui;
+     --glasscord-linux-blur: true;
+     --glasscord-titlebar: default;  
+   
+     --chatbox-colour: #22274175 !important; 
+     --background-primary: #1e233a00 !important; 
+     --background-primary-alt: #2d355783 !important; 
+     --background-secondary: #1e233a00 !important; 
+     --background-secondary-alt: #232942fa !important; 
+     --background-tertiary: #14182b85 !important; 
+     --background-accent: var(--alt-color2) !important; 
+     --background-accent2: #1abc9cc2 !important; 
+     --background-accent3: #f52c798f !important; 
+     --background-floating: #111422fb !important; 
+   }
+   /*  -------------------
+          Glasscord End
+       ------------------- *
 
 /*  -------------------
         Main Config 
