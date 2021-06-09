@@ -23,7 +23,42 @@
         █▄▄ █▄█ █░▀█ █▀░ █ █▄█ v0.5
             
       --------------------------------- */
-   
+
+/*  -------------------
+      Glasscord Start
+    ------------------- *
+
+/* Glasscord Section START (MUST HAVE IT INSTALLED, SEE FILES) */
+/* - Delete For Rounding Only
+:root{
+  --glasscord-win-blur: blurbehind;
+  --glasscord-macos-vibrancy: fullscreen-ui;
+  --glasscord-linux-blur: true;
+  --glasscord-titlebar: default;  
+Delete For Rounding Only - */
+
+/* - Delete For Tranparency
+  --chatbox-colour: #22274175 !important; 
+  --background-primary: #1e233a00 !important; 
+  --background-primary-alt: #2d355783 !important; 
+  --background-secondary: #1e233a00 !important; 
+  --background-secondary-alt: #232942fa !important; 
+  --background-tertiary: #14182b85 !important; 
+  --background-accent: var(--alt-color2) !important; 
+  --background-accent2: #1abc9cc2 !important; 
+  --background-accent3: #f52c798f !important; 
+  --background-floating: #111422fb !important; 
+}
+Delete For Tranparency - */ 
+
+/*  -------------------
+       Glasscord End
+    ------------------- *
+
+/*  -------------------
+        Main Config 
+    ------------------- *
+
 /* Status */
 :root {
 
@@ -101,15 +136,15 @@
   --interactive-muted: #535170; 
  
   /* Background Colours */
---background-primary: #1E233A !important; 
---background-primary-alt: #2d3557 !important; 
---background-secondary: #1E233A !important; 
---background-secondary-alt: #232942 !important; 
---background-tertiary: #14182b !important; 
---background-accent: var(--alt-color2) !important; 
---background-accent2: #1ABC9C !important; 
---background-accent3: #F52C79 !important; 
---background-floating: #111422 !important; 
+  --background-primary: #1E233A; 
+  --background-primary-alt: #2d3557; 
+  --background-secondary: #1E233A; 
+  --background-secondary-alt: #232942;
+  --background-tertiary: #14182b; 
+  --background-accent: var(--alt-color2); 
+  --background-accent2: #1ABC9C; 
+  --background-accent3: #F52C79; 
+  --background-floating: #111422; 
  
   /* Mentioned  Colours */
   --background-mentioned: #3a339965 !important; 
