@@ -20,6 +20,11 @@ For **Betterdiscord** Users:
 1. CLick > [Download](https://raw.githubusercontent.com/leeprky/Ovel/lode/source/support/betterdiscord/ovel.theme.css)
 2. Download Raw ATM
 
+For **Goosemod** Users:
+
+1. Click "Home" Button > Themes & Search Ovel
+2. 2. Click Import
+
 # Extras 
 
 Thank you for checking out/downloading my Theme :)
