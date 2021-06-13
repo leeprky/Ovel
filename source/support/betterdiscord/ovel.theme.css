@@ -241,10 +241,8 @@
   --radio-group-dot-foreground: var(--alt-color2); /* Ignore */
   }
 
- .bd-button,.bd-server-tag,.bd-addon-views .bd-view-button.selected{background-color:var(--bd-color)}
- .bd-button:hover{background-color:var(--bd-color-hover)}
- #bd-pub-button:hover{background-color:var(--bd-color-hover)}
- #bd-pub-li{display:var(--public-servers)}
+/* Ignore - Fixes */
+[class="size14-e6ZScH title-eS5yk3"] {margin-bottom: 1px;}
 
 /* ---------------------------------------------
 
