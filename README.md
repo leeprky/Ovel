@@ -28,6 +28,14 @@ Direct Message Me On @Discord Or Join My **[Discord](https://discord.gg/Ff3rqAYB
 Compared To Original Concept Art:
 ![preview](https://i.imgur.com/8RlZ3ED.png)
 
+More Of Ovel:
+
+Setting Menu:
+![preview](https://i.imgur.com/3BMUuND.png)
+
+Modals:
+![preview](https://i.imgur.com/csW8EoK.png)
+![preview](https://i.imgur.com/Otv0JjS.png)
 
 Check Out My Other Similar Themes!
 
