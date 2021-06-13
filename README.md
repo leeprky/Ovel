@@ -1,4 +1,4 @@
-# Ovel (v1.0.0)
+# Ovel (v1.0.1 - Latest)
 A Concept Merge I Called Ovel, Its A Round Purple Theme with similarities to Lauren's Discord Redesign On Dribble Mixed In With A Few Others Like The My Account Settings Section And A Spice Of My Own Touches.
 
 ![preview](https://i.imgur.com/ZwuCSzc.png)
@@ -18,13 +18,21 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Ovel
 For **Betterdiscord** Users:
 
 1. CLick > [Download](https://raw.githubusercontent.com/leeprky/Ovel/lode/source/support/betterdiscord/ovel.theme.css)
-
-2. Download Raw
+2. Download Raw ATM
 
 # Extras 
 
 Thank you for checking out/downloading my Theme :)
-Direct Message Me On @Discord Or Join By **[github.com/leeprky](https://discord.gg/Ff3rqAYB89)** For More Help/Information For Installing/Support. Enjoy :)
+Direct Message Me On @Discord Or Join My **[Discord](https://discord.gg/Ff3rqAYB89)** For More Help/Information For Installing/Support. Enjoy :)
 
-Compared To Original
+Compared To Original Concept Art:
 ![preview](https://i.imgur.com/8RlZ3ED.png)
+
+
+Check Out My Other Similar Themes!
+
+# **[Quarrel](https://github.com/leeprky/Quarrel)**
+![preview](https://camo.githubusercontent.com/f65b3dfef1529b172f324d59223aace8bd5b24fbbc3120c265db848224ab53c8/68747470733a2f2f692e696d6775722e636f6d2f51686832526e552e6a7067)
+
+# **[Lode](https://github.com/leeprky/Lode)**
+![preview](https://raw.githubusercontent.com/leeprky/Lode/main/default/images/PreviewEdit.jpg)
