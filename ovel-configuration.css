@@ -249,6 +249,9 @@
   --radio-group-dot-foreground: var(--alt-color2); /* Ignore */
   }
 
+/* Ignore - Fixes */
+[class="size14-e6ZScH title-eS5yk3"] {margin-bottom: 1px;}
+
 /* ---------------------------------------------
 
              ███████╗███╗░░██╗██████╗░
