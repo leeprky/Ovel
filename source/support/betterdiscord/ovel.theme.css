@@ -262,12 +262,7 @@
 [class="listItem-GuPuDH friendsOnlineWrap-0gZ63m"] {display: none;}
 .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {position: fixed;transform: translate3d(0, 200px, 0);}
 .guilds-1SWlCJ .scroller-1Bvpku {margin-top: 330px !important;contain: unset !important;}
-.avatar-SmRMf2, .avatar-VxgULZ, .icon-27yU2q {position: relative;border-radius: 50% !important;}
-
-.userPopout-xaxa6l[style*="--user-background"] .banner-2QYc2d,
-.root-3QyAh1[style*="--user-background"] .banner-2QYc2d {height: 200px;background: var(--background-floating) var(--user-background) var(--user-popout-position, center) center / cover !important;}
-.userPopout-xaxa6l[style*="--user-background"] .avatarPositionNormal-aZjAsn {top: 120px;}
-.root-3QyAh1[style*="--user-background"] .banner-2QYc2d {height: 240px;}
+.avatar-SmRMf2, .avatar-VxgULZ, .icon-27yU2q {position: relative;border-radius: 50% !important;
 
 /* ---------------------------------------------
 
