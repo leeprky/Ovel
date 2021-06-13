@@ -30,6 +30,18 @@
 @import "https://leeprky.github.io/themes/Ovel/imports.css";
 @import "https://leeprky.github.io/themes/Ovel/imports/09-support/betterdiscord.css";
 
+/* Colours */
+/* Delete `/*` At Start Of Import */
+
+/* Slook Scheme */
+/* @import url(https://leeprky.github.io/themes/Ovel/imports/08-colours/slook-scheme.css);
+
+/* Naive Scheme */
+/* @import url(https://leeprky.github.io/themes/Ovel/imports/08-colours/naive-scheme.css);
+
+/* Custom Scheme By namehere */
+/* @import url(linkhere);
+
 /* ---------------------------------
 
        █▀▀ █▀█ █▄░█ █▀▀ █ █▀▀
@@ -259,6 +271,7 @@
              ██╔══╝░░██║╚████║██║░░██║
              ███████╗██║░╚███║██████╔╝
              ╚══════╝╚═╝░░╚══╝╚═════╝░
-                  Version 1.0.1
+             ╚══════╝╚═╝░░╚══╝╚═════╝░
+                   Version 1.0.1
 
    --------------------------------------------- */
