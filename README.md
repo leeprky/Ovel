@@ -31,11 +31,12 @@ Compared To Original Concept Art:
 More Of Ovel:
 
 Setting Menu:
+
 ![preview](https://i.imgur.com/3BMUuND.png)
 
 Modals:
-![preview](https://i.imgur.com/csW8EoK.png)
 
+![preview](https://i.imgur.com/csW8EoK.png)
 ![preview](https://i.imgur.com/Otv0JjS.png)
 
 Credits:
