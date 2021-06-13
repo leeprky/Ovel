@@ -25,10 +25,7 @@ For **Betterdiscord** Users:
 Thank you for checking out/downloading my Theme :)
 Direct Message Me On @Discord Or Join My **[Discord](https://discord.gg/Ff3rqAYB89)** For More Help/Information For Installing/Support. Enjoy :)
 
-Compared To Original Concept Art:
-![preview](https://i.imgur.com/8RlZ3ED.png)
-
-More Of Ovel:
+# Screenshots:
 
 Setting Menu:
 
@@ -38,6 +35,9 @@ Modals:
 
 ![preview](https://i.imgur.com/csW8EoK.png)
 ![preview](https://i.imgur.com/Otv0JjS.png)
+
+Compared To Original Concept Art:
+![preview](https://i.imgur.com/8RlZ3ED.png)
 
 # Credits:
 
@@ -49,7 +49,8 @@ Modals:
 
 And Any Snippits Used; ETC **[Gibbu](https://github.com/Gibbu)**'s Horizontal Server List (Edited).
 
-Check Out My Other Similar Themes!
+
+# Check Out My Other Similar Themes!
 
 # **[Quarrel](https://github.com/leeprky/Quarrel)**
 ![preview](https://camo.githubusercontent.com/f65b3dfef1529b172f324d59223aace8bd5b24fbbc3120c265db848224ab53c8/68747470733a2f2f692e696d6775722e636f6d2f51686832526e552e6a7067)
