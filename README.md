@@ -27,6 +27,9 @@ Direct Message Me On @Discord Or Join My **[Discord](https://discord.gg/Ff3rqAYB
 
 # Screenshots:
 
+# Close Up
+![preview](https://i.imgur.com/1YpU4rm.png)
+
 Setting Menu:
 
 ![preview](https://i.imgur.com/3BMUuND.png)
