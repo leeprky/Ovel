@@ -39,14 +39,15 @@ Modals:
 ![preview](https://i.imgur.com/csW8EoK.png)
 ![preview](https://i.imgur.com/Otv0JjS.png)
 
-Credits:
+# Credits:
+
 **[mr-miner1](https://github.com/mr-miner1)**'s Better Badges.
 
 **[mwittrien](https://github.com/mwittrien)**'s Setting Icons.
 
 **[luckfire](https://github.com/luckfire)**'s Gradient Buttons.
 
-And Any Snippits Used; ETC Gibbu's Horizontal Server List (Edited).
+And Any Snippits Used; ETC **[Gibbu](https://github.com/Gibbu)**'s Horizontal Server List (Edited).
 
 Check Out My Other Similar Themes!
 
