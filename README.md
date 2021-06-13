@@ -1,5 +1,5 @@
 # Ovel (v1.0.0)
-A Themed Based Of The Quarrel Client In The Windows Store
+A Concept Merge I Called Ovel, Its A Round Purple Theme with similarities to Lauren's Discord Redesign On Dribble Mixed In With A Few Others Like The My Account Settings Section And A Spice Of My Own Touches.
 
 ![preview](https://i.imgur.com/ZwuCSzc.png)
 
@@ -25,7 +25,6 @@ For **Betterdiscord** Users:
 
 Thank you for checking out/downloading my Theme :)
 Direct Message Me On @Discord Or Join By **[github.com/leeprky](https://discord.gg/Ff3rqAYB89)** For More Help/Information For Installing/Support. Enjoy :)
-
 
 Compared To Original
 ![preview](https://i.imgur.com/8RlZ3ED.png)
