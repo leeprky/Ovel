@@ -23,7 +23,7 @@ For **Betterdiscord** Users:
 For **Goosemod** Users:
 
 1. Click "Home" Button > Themes & Search Ovel
-2. 2. Click Import
+2. Click Import
 
 # Extras 
 
