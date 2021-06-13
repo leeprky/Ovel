@@ -1,7 +1,7 @@
 /**
  * @name Ovel
  * @author Leeprky#2063
- * @version 1.0.0
+ * @version 1.0.1
  * @description Ovel Theme | Concept Merge.
  * @source https://github.com/leeprky/Ovel
  * @updateUrl https://github.com/leeprky/Ovel/blob/lode/source/support/betterdiscord/ovel.theme.css
@@ -86,6 +86,9 @@
   --public-servers: none; /* Remove None For Public Server Button - none */    
   
   --app-rounding: 16px;
+      
+  --sidebar-fade: 88%;
+  --friends-sidebar-fade: 48%;
 }
 
  /* Ovel Dark */
@@ -252,5 +255,6 @@
              ██╔══╝░░██║╚████║██║░░██║
              ███████╗██║░╚███║██████╔╝
              ╚══════╝╚═╝░░╚══╝╚═════╝░
+                  Version 1.0.1
 
    --------------------------------------------- */
