@@ -32,7 +32,7 @@
    /* ---------------------------------
 
         █▀▀ █▀█ █▄░█ █▀▀ █ █▀▀
-        █▄▄ █▄█ █░▀█ █▀░ █ █▄█ v1.0.4
+        █▄▄ █▄█ █░▀█ █▀░ █ █▄█ v1.0.4.1
             
       --------------------------------- */
 
@@ -111,8 +111,8 @@
   --border-radius: 8px;
       
   --spotify-modal: block;
-  --spotify-height: 50px;
-  --spotify-left: 1000px;
+  --spotify-height: 0px;
+  --spotify-left: 0px;
   
   --bg-avatar: url(https://i.imgur.com/g37HbBe.png);
       
