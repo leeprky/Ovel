@@ -108,6 +108,7 @@ body{
   --public-servers: none; /* Remove None For Public Server Button - none */    
   
   --app-rounding: 16px;
+  --avatar-radius: 50%;
       
   --sidebar-fade: 88%;
   --friends-sidebar-fade: 48%;
