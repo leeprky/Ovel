@@ -44,6 +44,12 @@
    :root{
      --glasscord-win-blur: blurbehind;
    }
+   body{
+     background-color: transparent !important;
+}
+   #app-mount{
+     border-radius: var(--app-rounding) !important; 
+}
    /* - Add Transparency
    :root {
      --glasscord-macos-vibrancy: fullscreen-ui;
