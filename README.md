@@ -1,4 +1,4 @@
-# Ovel (v1.0.1 - Latest)
+# Ovel (v1.0.4 - Latest)
 A Concept Merge I Called Ovel, Its A Round Purple Theme with similarities to Lauren's Discord Redesign On Dribble Mixed In With A Few Others Like The My Account Settings Section And A Spice Of My Own Touches.
 
 ![preview](https://i.imgur.com/ZwuCSzc.png)
