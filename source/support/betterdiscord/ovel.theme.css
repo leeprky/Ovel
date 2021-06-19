@@ -52,6 +52,14 @@
 /* Turn Background Transparent */
 /*   @import "https://leeprky.github.io/themes/Ovel/imports/09-support/betterdiscord/transparency.css";
 
+/* Rounded Corners - Need Transparency Enabled */
+body{
+ background-color: transparent !important;
+}
+#app-mount{
+ border-radius: var(--app-rounding) !important; 
+}
+
 /* Status */
 :root {
 
