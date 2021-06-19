@@ -1,7 +1,7 @@
 /**
  * @name Ovel
  * @author Leeprky#2063
- * @version 1.0.4.1
+ * @version 1.0.4.2
  * @description Ovel Theme | Concept Merge.
  * @source https://github.com/leeprky/Ovel
  * @updateUrl https://github.com/leeprky/Ovel/blob/lode/source/support/betterdiscord/ovel.theme.css
@@ -73,6 +73,15 @@ body{
    --green-gradient: 315deg, #507a73 0%, #4b7c72  74%;
    --grey-gradient: 315deg, #5b55b3 0%, #5b55b3 74%;
    --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74%;
+      
+   /* Channel Icons */
+   --hashtag-colour: var(--interactive-muted);
+   --announcement-colour: var(--interactive-muted);
+   --rules-colour: hsla(2, 100%, 50%, 0.75);
+   --stages-colour: var(--interactive-muted);
+   --voice-colour: var(--interactive-muted);
+   --locked-colour: var(--interactive-muted);
+      
    /* Transitions */
    --font-normal: 500;
    --font-hover: bold;
@@ -94,10 +103,6 @@ body{
 
 .theme-dark, .theme-light {
   --border-radius: 8px;
-      
-  --spotify-modal: block;
-  --spotify-height: 0px;
-  --spotify-left: 0px;
   
   --bg-avatar: url(https://i.imgur.com/g37HbBe.png);
       
