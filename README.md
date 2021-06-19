@@ -2,6 +2,7 @@
 A Concept Merge I Called Ovel, Its A Round Purple Theme with similarities to Lauren's Discord Redesign On Dribble Mixed In With A Few Others Like The My Account Settings Section And A Spice Of My Own Touches.
 
 ![preview](https://i.imgur.com/ZwuCSzc.png)
+![preview](https://i.imgur.com/2kA8LHg.png)
 
 ## How To Install Ovel?
 
