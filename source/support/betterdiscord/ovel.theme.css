@@ -1,7 +1,7 @@
 /**
  * @name Ovel
  * @author Leeprky#2063
- * @version 1.0.3
+ * @version 1.0.4
  * @description Ovel Theme | Concept Merge.
  * @source https://github.com/leeprky/Ovel
  * @updateUrl https://github.com/leeprky/Ovel/blob/lode/source/support/betterdiscord/ovel.theme.css
@@ -45,7 +45,7 @@
 /* ---------------------------------
 
        █▀▀ █▀█ █▄░█ █▀▀ █ █▀▀
-       █▄▄ █▄█ █░▀█ █▀░ █ █▄█ v1.0.3
+       █▄▄ █▄█ █░▀█ █▀░ █ █▄█ v1.0.4
 
     --------------------------------- */
 
@@ -59,7 +59,9 @@
    --default-gradient: 315deg, #4657a3 0%, #464186 74%;
    --special-gradient: 315deg, #333d91 0%, #c987b8 74%;
    --red-gradient: 315deg, #AA3738 0%, #F04747 74%;
+   --red-hsl: hsl(359, 94%, 53%);
    --yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74%;
+   --yellow-hsl: hsl(46, 94%, 52%);
    --green-gradient: 315deg, #507a73 0%, #4b7c72  74%;
    --grey-gradient: 315deg, #5b55b3 0%, #5b55b3 74%;
    --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74%;
@@ -273,6 +275,6 @@
              ███████╗██║░╚███║██████╔╝
              ╚══════╝╚═╝░░╚══╝╚═════╝░
              ╚══════╝╚═╝░░╚══╝╚═════╝░
-                   Version 1.0.3
+                   Version 1.0.4
 
    --------------------------------------------- */
