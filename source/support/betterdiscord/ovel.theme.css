@@ -1,7 +1,7 @@
 /**
  * @name Ovel
  * @author Leeprky#2063
- * @version 1.0.4.2
+ * @version 1.0.4.4
  * @description Ovel Theme | Concept Merge.
  * @source https://github.com/leeprky/Ovel
  * @updateUrl https://github.com/leeprky/Ovel/blob/lode/source/support/betterdiscord/ovel.theme.css
@@ -102,6 +102,12 @@ body{
 }
 
 .theme-dark, .theme-light {
+  --version: "1.0.4.4";
+  --version-long: "Ovel v1.0.4.4 | By Leeprky#2063";
+}
+
+.theme-dark, .theme-light {
+      
   --border-radius: 8px;
   
   --bg-avatar: url(https://i.imgur.com/g37HbBe.png);
