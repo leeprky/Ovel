@@ -117,10 +117,14 @@
 }
 
 .theme-dark, .theme-light {
+  --version: "1.0.4.4";
+  --version-long: "Ovel v1.0.4.4 | By Leeprky#2063";
+}
+
+.theme-dark, .theme-light {
+      
   --border-radius: 8px;
       
-      
-  
   --bg-avatar: url(https://i.imgur.com/g37HbBe.png);
       
  --popout-width: 480px; 
