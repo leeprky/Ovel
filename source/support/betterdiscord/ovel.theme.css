@@ -1,7 +1,7 @@
 /**
  * @name Ovel
  * @author Leeprky#2063
- * @version 1.0.4.2
+ * @version 1.0.4.3
  * @description Ovel Theme | Concept Merge.
  * @source https://github.com/leeprky/Ovel
  * @updateUrl https://github.com/leeprky/Ovel/blob/lode/source/support/betterdiscord/ovel.theme.css
@@ -279,6 +279,7 @@ body{
 .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {position: fixed;transform: translate3d(0, 200px, 0);}
 .guilds-1SWlCJ .scroller-1Bvpku {margin-top: 330px !important;contain: unset !important;}
 .avatar-SmRMf2, .avatar-VxgULZ, .icon-27yU2q {position: relative;border-radius: 50% !important;
+.members-1998pB, .members-1998pB>div, .scroller-RmtA4e, .hiddenMembers-2dcs_q {margin-bottom: 0px;-webkit-mask-image: linear-gradient(to bottom, black var(--sidebar-fade), transparent 100%);}
 
 /* ---------------------------------------------
 
