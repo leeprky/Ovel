@@ -44,7 +44,6 @@ Setting Menu:
 Nitro:
 
 ![preview](https://i.imgur.com/3syYMPh.png)
-![preview](https://i.imgur.com/3syYMPh.png)
 
 Modals:
 
