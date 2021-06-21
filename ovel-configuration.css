@@ -118,11 +118,6 @@
    --green-slider-dot: #fff;
 }
 
-:root {
-  --version: "1.0.5";
-  --version-long: "Ovel v1.0.5 | By Leeprky#2063";
-}
-
 .theme-dark, .theme-light {  
   --border-radius: 8px;
   --bg-avatar: url(https://i.imgur.com/g37HbBe.png);
@@ -293,6 +288,7 @@
    █ █▄█ █░▀█ █▄█ █▀▄ ██▄ */
 
 [class="size14-e6ZScH title-eS5yk3"] {margin-bottom: 1px;}
+:root {--version: "1.0.5";--version-long: "Ovel v1.0.5 | By Leeprky#2063";--outdated: none;}
 
 /* -------------------------------------------------------------------------------
 
