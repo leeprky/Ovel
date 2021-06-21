@@ -286,8 +286,8 @@ body{
 .guilds-1SWlCJ .scroller-1Bvpku {margin-top: 330px !important;contain: unset !important;}
 .avatar-SmRMf2, .avatar-VxgULZ, .icon-27yU2q {position: relative;border-radius: 50% !important;
 
-/* Un Comment If You Dont Have User Banner Expierment Enabled */
-/* .fieldList-21DyL8 {
+/* Comment If You Dont Have User Banner Expierment Enabled */
+ .fieldList-21DyL8 {
   position: absolute;
   top: 850px;
   margin-left: -30px;
