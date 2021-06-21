@@ -92,7 +92,7 @@
     /* Channel Icons */
    --hashtag-colour: var(--interactive-muted);
    --announcement-colour: var(--interactive-muted);
-   --rules-colour: hsla(2, 100%, 50%, 0.75);
+   --rules-colour: var(--alt-color2);
    --stages-colour: var(--interactive-muted);
    --voice-colour: var(--interactive-muted);
    --locked-colour: var(--interactive-muted);
