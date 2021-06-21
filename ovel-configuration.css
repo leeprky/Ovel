@@ -118,7 +118,7 @@
    --green-slider-dot: #fff;
 }
 
-.theme-dark, .theme-light {
+:root {
   --version: "1.0.5";
   --version-long: "Ovel v1.0.5 | By Leeprky#2063";
 }
