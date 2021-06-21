@@ -41,6 +41,11 @@ Setting Menu:
 
 ![preview](https://i.imgur.com/3BMUuND.png)
 
+Nitro:
+
+![preview](https://i.imgur.com/3syYMPh.png)
+![preview](https://i.imgur.com/3syYMPh.png)
+
 Modals:
 
 ![preview](https://i.imgur.com/csW8EoK.png)
