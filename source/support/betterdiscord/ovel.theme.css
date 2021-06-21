@@ -1,7 +1,7 @@
 /**
  * @name Ovel
  * @author Leeprky#2063
- * @version 1.0.4.4
+ * @version 1.0.4.5
  * @description Ovel Theme | Concept Merge.
  * @source https://github.com/leeprky/Ovel
  * @updateUrl https://github.com/leeprky/Ovel/blob/lode/source/support/betterdiscord/ovel.theme.css
@@ -77,7 +77,7 @@ body{
    /* Channel Icons */
    --hashtag-colour: var(--interactive-muted);
    --announcement-colour: var(--interactive-muted);
-   --rules-colour: hsla(2, 100%, 50%, 0.75);
+   --rules-colour: var(--alt-color2);
    --stages-colour: var(--interactive-muted);
    --voice-colour: var(--interactive-muted);
    --locked-colour: var(--interactive-muted);
