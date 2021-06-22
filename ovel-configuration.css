@@ -10,7 +10,8 @@
        █▀▀ █▀█ █▄░█ █▀▀ █ █▀▀  █▀▀ █ █░░ █▀▀
        █▄▄ █▄█ █░▀█ █▀░ █ █▄█  █▀░ █ █▄▄ ██▄
 
-                By 𝖫𝖤𝖤𝖯𝖱𝖪𝖸#𝟚𝟘𝟞𝟛
+                 By 𝖫𝖤𝖤𝖯𝖱𝖪𝖸#𝟚𝟘𝟞𝟛
+                    v1.0.5.2
 
    --------------------------------------------- */
 
@@ -76,6 +77,23 @@
        █▄▄ █▄█ █░▀█ █▀░ █ █▄█ v1.0.5
 
    ----------------------------------- */
+
+   /* Background & Blur Config - Comment Out To Remove Background & Restore Old Colours */
+
+         :root {
+         --background: url('https://i.imgur.com/6NUSR9H.png'); 
+         --background-blur: 8px; 
+         --background-opacity: 100%; 
+         --background-brightness: 92%; 
+         --background-colour: #14182b9a; 
+
+         --chatbox-colour: #21204238 !important; 
+         --background-primary: transparent !important; 
+         --background-primary-alt: #2d355783 !important; 
+         --background-secondary: transparent !important;
+         --background-secondary-alt: #232942fa !important; 
+         --background-tertiary: var(--background-colour) !important; 
+       }
 
 /* Status */
 :root {
@@ -288,7 +306,7 @@
    █ █▄█ █░▀█ █▄█ █▀▄ ██▄ */
 
 [class="size14-e6ZScH title-eS5yk3"] {margin-bottom: 1px;}
-:root {--version: "v1.0.5";--outdated: none;}
+:root {--version: "v1.0.5.2";--outdated: none;}
 
 /* -------------------------------------------------------------------------------
 
@@ -324,6 +342,6 @@
              ███████╗██║░╚███║██████╔╝
              ╚══════╝╚═╝░░╚══╝╚═════╝░
              ╚══════╝╚═╝░░╚══╝╚═════╝░
-                   Version 1.0.5
+                  Version 1.0.5.2
 
    --------------------------------------------- */
