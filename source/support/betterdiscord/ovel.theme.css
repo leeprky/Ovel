@@ -1,7 +1,7 @@
 /**
  * @name Ovel
  * @author Leeprky#2063
- * @version 1.0.5.1
+ * @version 1.0.5.2
  * @description Ovel Theme | Concept Merge.
  * @source https://github.com/leeprky/Ovel
  * @updateUrl https://github.com/leeprky/Ovel/blob/lode/source/support/betterdiscord/ovel.theme.css
@@ -55,14 +55,32 @@
    /* ---------------------------------
    
           █▀▀ █▀█ █▄░█ █▀▀ █ █▀▀
-          █▄▄ █▄█ █░▀█ █▀░ █ █▄█ v1.0.5
+          █▄▄ █▄█ █░▀█ █▀░ █ █▄█ v1.0.5.2
    
        --------------------------------- */
    
    /* Turn Background Transparent */
    /*   @import "https://leeprky.github.io/themes/Ovel/imports/09-support/betterdiscord/transparency.css";
    
+   /* Background & Blur Config - Comment Out To Remove Background & Restore Old Colours */
+   
+         :root {
+         --background: url('https://i.imgur.com/6NUSR9H.png'); 
+         --background-blur: 8px; 
+         --background-opacity: 100%; 
+         --background-brightness: 92%; 
+         --background-colour: #14182b9a; 
+
+         --chatbox-colour: #21204238 !important; 
+         --background-primary: transparent !important; 
+         --background-primary-alt: #2d355783 !important; 
+         --background-secondary: transparent !important;
+         --background-secondary-alt: #232942fa !important; 
+         --background-tertiary: var(--background-colour) !important; 
+       }
+
    /* Rounded Corners - Need Transparency Enabled */
+   /*
    body{
     background-color: transparent !important;
    }
@@ -286,7 +304,7 @@
    .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {position: fixed;transform: translate3d(0, 200px, 0);}
    .guilds-1SWlCJ .scroller-1Bvpku {margin-top: 330px !important;contain: unset !important;}
    .avatar-SmRMf2, .avatar-VxgULZ, .icon-27yU2q {position: relative;border-radius: 50% !important;}
-   :root {--version: "v1.0.5"; --outdated: none;}
+   :root {--version: "v1.0.5.2"; --outdated: none;}
   
    /* -------------------------------------------------------------------------------
 
