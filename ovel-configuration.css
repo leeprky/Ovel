@@ -38,22 +38,19 @@
 /* Custom Scheme By namehere */
 /* @import url(linkhere);
 
-
 /*  █▀▀ █░░ ▄▀█ █▀ █▀ █▀▀ █▀█ █▀█ █▀▄
     █▄█ █▄▄ █▀█ ▄█ ▄█ █▄▄ █▄█ █▀▄ █▄▀    
         ▀█▀ █▀█ ▄▀█ █▄░█ █▀ █▀█ ▄▀█ █▀█ █▀▀ █▄░█ █▀▀ █▄█   
         ░█░ █▀▄ █▀█ █░▀█ ▄█ █▀▀ █▀█ █▀▄ ██▄ █░▀█ █▄▄ ░█░   */
 
-   /*
-   :root{
-     --glasscord-win-blur: blurbehind;
-   }
-   body{
-     background-color: transparent !important;
-}
-   #app-mount{
-     border-radius: var(--app-rounding) !important; 
-}
+
+/* - Rounding
+   :root{ --glasscord-win-blur: blurbehind;}
+   body{background-color: transparent !important;}
+   #app-mount{border-radius: var(--app-rounding) !important; }
+*/
+
+/* - Transparency
    :root {
      --glasscord-macos-vibrancy: fullscreen-ui;
      --glasscord-linux-blur: true;
@@ -70,6 +67,7 @@
      --background-accent3: #f52c798f !important; 
      --background-floating: #111422fb !important; 
    }
+*/
 
 /* -----------------------------------
 
@@ -79,7 +77,7 @@
    ----------------------------------- */
 
    /* Background & Blur Config - Comment Out To Remove Background & Restore Old Colours */
-
+   /*
          :root {
          --background: url('https://i.imgur.com/6NUSR9H.png'); 
          --background-blur: 8px; 
@@ -94,8 +92,11 @@
          --background-secondary-alt: #232942fa !important; 
          --background-tertiary: var(--background-colour) !important; 
        }
+*/
 
-/* Status */
+/* █▀▀ █▀█ █░░ █▀█ █░█ █▀█ █▀
+   █▄▄ █▄█ █▄▄ █▄█ █▄█ █▀▄ ▄█ */
+
 :root {
 
    /* Gradients */
