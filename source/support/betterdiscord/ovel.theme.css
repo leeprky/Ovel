@@ -304,7 +304,7 @@
    .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {position: fixed;transform: translate3d(0, 200px, 0);}
    .guilds-1SWlCJ .scroller-1Bvpku {margin-top: 330px !important;contain: unset !important;}
    .avatar-SmRMf2, .avatar-VxgULZ, .icon-27yU2q {position: relative;border-radius: 50% !important;}
-   :root {--version: "v1.0.6"; --outdated_ovel-144: none;}
+   :root {--version: "v1.0.6"; --build: "144"; --outdated_ovel-144: none;}
   
    /* -------------------------------------------------------------------------------
 
