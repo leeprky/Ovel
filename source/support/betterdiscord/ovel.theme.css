@@ -32,7 +32,7 @@
         No Touch
 */
 
-@import "https://leeprky.github.io/themes/Ovel/master-import.css";
+@import "https://leeprky.github.io/themes/Ovel/compiled-ovel.css";
 @import "https://leeprky.github.io/themes/Ovel/imports/09-support/betterdiscord/betterdiscord.css";
 
 
@@ -304,7 +304,7 @@
    .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {position: fixed;transform: translate3d(0, 200px, 0);}
    .guilds-1SWlCJ .scroller-1Bvpku {margin-top: 330px !important;contain: unset !important;}
    .avatar-SmRMf2, .avatar-VxgULZ, .icon-27yU2q {position: relative;border-radius: 50% !important;}
-:root {--version: "v1.0.6" !important; --build: "144" !important; --outdated_ovel-144: none !important}
+:root {--version: "v1.0.6C" !important; --build: "144C" !important; --outdated_ovelC-144: none !important}
   
    /* -------------------------------------------------------------------------------
 
