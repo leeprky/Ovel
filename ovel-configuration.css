@@ -43,31 +43,19 @@
         ▀█▀ █▀█ ▄▀█ █▄░█ █▀ █▀█ ▄▀█ █▀█ █▀▀ █▄░█ █▀▀ █▄█   
         ░█░ █▀▄ █▀█ █░▀█ ▄█ █▀▀ █▀█ █▀▄ ██▄ █░▀█ █▄▄ ░█░   */
 
+/* LOOK ITS NOW EASIER | BUILD: 150
+@import "https://leeprky.github.io/themes/Ovel/imports/09-support/powercord/glasscord.css";
 
-/* - Rounding
-   :root{ --glasscord-win-blur: blurbehind;}
-   body{background-color: transparent !important;}
-   #app-mount{border-radius: var(--app-rounding) !important; }
-*/
-
-/* - Transparency
-   :root {
-     --glasscord-macos-vibrancy: fullscreen-ui;
-     --glasscord-linux-blur: true;
-     --glasscord-titlebar: default;  
+:root{ 
+   --glasscord-win-blur: blurbehind;
+   --glasscord-linux-blur: true;
+   --glasscord-macos-vibrancy: fullscreen-ui;
    
-     --chatbox-colour: #22274175 !important; 
-     --background-primary: #1e233a00 !important; 
-     --background-primary-alt: #2d355783 !important; 
-     --background-secondary: #1e233a00 !important; 
-     --background-secondary-alt: #232942fa !important; 
-     --background-tertiary: #14182b85 !important; 
-     --background-accent: var(--alt-color2) !important; 
-     --background-accent2: #1abc9cc2 !important; 
-     --background-accent3: #f52c798f !important; 
-     --background-floating: #111422fb !important; 
-   }
-*/
+   --glasscord-background: #12182ebe !important;
+   --glasscord-chatbox-colour: #191d303d;
+   --glasscord-secondary-alt: #11142280;
+   --glasscord-floating: #111422; 
+}
 
 /* -----------------------------------
 
@@ -306,7 +294,7 @@
    █ █▄█ █░▀█ █▄█ █▀▄ ██▄ */
 
 [class="size14-e6ZScH title-eS5yk3"] {margin-bottom: 1px;}
-:root {--version: "v1.0.6" !important; --build: "144" !important; --outdated_ovel-144: none !important}
+:root {--version: "v1.0.6" !important; --build: "150" !important; --outdated_ovel-150: none !important}
 
 /* -------------------------------------------------------------------------------
 
