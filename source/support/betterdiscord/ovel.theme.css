@@ -26,6 +26,7 @@
                 By 𝖫𝖤𝖤𝖯𝖱𝖪𝖸#𝟚𝟘𝟞𝟛
 
    --------------------------------------------- */
+
 /*
 █ █▀▄▀█ █▀█ █▀█ █▀█ ▀█▀ █▀
 █ █░▀░█ █▀▀ █▄█ █▀▄ ░█░ ▄█
@@ -63,7 +64,7 @@
    /*   @import "https://leeprky.github.io/themes/Ovel/imports/09-support/betterdiscord/transparency.css";
    
    /* Background & Blur Config - Comment Out To Remove Background & Restore Old Colours */
-   
+   /*
          :root {
          --background: url('https://i.imgur.com/6NUSR9H.png'); 
          --background-blur: 8px; 
@@ -304,7 +305,7 @@
    .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {position: fixed;transform: translate3d(0, 200px, 0);}
    .guilds-1SWlCJ .scroller-1Bvpku {margin-top: 330px !important;contain: unset !important;}
    .avatar-SmRMf2, .avatar-VxgULZ, .icon-27yU2q {position: relative;border-radius: 50% !important;}
-:root {--version: "v1.0.6" !important; --build: "144" !important; --outdated_ovel-144: none !important}
+   :root {--version: "v1.0.6" !important; --build: "150" !important; --outdated_ovel-150: none !important}
   
    /* -------------------------------------------------------------------------------
 
