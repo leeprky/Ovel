@@ -1,9 +1,12 @@
-{
-    "name": "Ovel",
-    "description": "Ovel Theme | Concept Merge",
-    "version": "1.0.6",
-    "author": "Leeprky#2063",
-    "splashTheme": "splash.css",
-    "license": "MIT",
-    "theme": "ovel-configuration.css"
+{	
+"name": "Ovel",
+"description": "Ovel Theme | Concept Merge",
+"version": "1.0.6",
+"author": "Leeprky#2063",
+"license": "MIT",
+"theme": "ovel-configuration.css",
+"splashTheme": "splash.css",
+"consent": "true",
+"preview": ["https://camo.githubusercontent.com/a42ac5b90609f79eb3cd117b6ba55351ed970c9c102ff1b37c8092693a36c871/68747470733a2f2f692e696d6775722e636f6d2f5a777543537a632e706e67"],
+"discord": "Ff3rqAYB89"
 }
