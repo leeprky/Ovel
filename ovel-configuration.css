@@ -224,6 +224,7 @@
   --bd-color-hover: #4C46A3; 
   --alt-color: 76, 70, 163; 
   --alt-color2: #4C46A3; 
+  --alt-color3: 244; /* HSL */
   
   --scrollbars: block; 
   --public-servers: block; 
