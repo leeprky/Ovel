@@ -17,7 +17,9 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Ovel
 
 For **Betterdiscord** Users:
 
-1. CLick > [Download](https://betterdiscord.app/Download?id=316)
+NO LONGER AVAILBLE ON BETTER DISCORDS SITE
+
+USE RAW FILE > https://raw.githubusercontent.com/leeprky/Ovel/main/source/support/betterdiscord/ovel.theme.css
 
 For **Goosemod** Users:
 
